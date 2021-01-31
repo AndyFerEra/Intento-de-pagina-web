@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*background: white*/
+}
+
+
+h1 {
+	font-size: 20px;
+	font-family: sans-serif; 
+	font-weight: bold; 
+}
+
+h2{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: sans-serif;
+	/* font: bold 14px sans-serif (tambien se puede poner asi )*/ 
+}
+
+header,nav,section,article, footer,aside,hgroup{
+	display: block;
+}
+
+body{
+	text-align: center;
+	background: #CCCCCC;
+}
+
+.agrupar{
+	width: 960px;
+	border: 1px solid black;
+	margin: 30px auto;
+	background: white;
+	
+}
+
+.cabeza{
+	background: #FFFBB9;
+	padding: 5px;
+	text-align: left;
+}
+
+.navegator{
+		background: #CCCCCC;
+		padding: 5px;
+		text-align: left;
+}
+
+.navegator li{
+	list-style: none;
+	font: bold 14px verdana;
+	display: inline-block;
+	}
+
+.seccion img {
+	
+}
+
+.seccion{
+	margin: 20px;
+	width: 600px;
+	float: left;
+	
+}
+
+article{
+	background: #fffbcc;
+	border: 1px solid #1999;
+	padding: 20px;
+	margin-bottom: 15px;
+
+}
+
+article footer{
+	text-align: right;
+	margin-top: 10px;
+}
+
+.noimporta{
+	width: 200px;
+	margin: 20px ; 
+	float: left;
+}
+.noimporta blockquote{
+	border: 1px solid black;
+	margin-bottom: 10px;
+	padding: 5px;
+	background: #FFFBB9;
+}
+
+time{
+	color: #999;
+}
+
+.pie{
+	clear: both;
+	padding: 20px;
+	background: black;
+	color:#ffffff;
+	font: bold 14px verdana;
+}
+
+/*.img{
+	background: black;
+	padding-left: 10px;
+	margin: 18px;
+	float: inherit;	
+}*/
+
+img{
+	width: 300px;
+	display: block;
+	margin: 10px auto;
+
+}
